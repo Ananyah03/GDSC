@@ -2,6 +2,7 @@ code:
 
 from fastapi import FastAPI, HTTPException, Depends, WebSocket 
 from pydantic import BaseModel 
+
 import websockets 
 class Item(BaseModel): 
  task: str 
